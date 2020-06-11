@@ -204,40 +204,59 @@ img {
     justify-content: space-between;
     align-items: center;
   }
+
   .box img {
     width: 20%;
   }
+
   .ul {
     display: flex;
     
   }
   .nav__item {
-    margin-right: 15px;
+    margin-right: 10px;
   
   }
   .nav__item--link {
     color: orange;
-    text-shadow: 5px 5px 10px #000;
+    text-shadow: 2px 2px 2px #111;
     font-family: 'Chelsea Market', cursive, sans-serif;
-    font-size: .85rem;
+    font-size: 1rem;
   }
+
   .services img {
-    width: 95%;
+    width: 90%;
     
   }
+  .services h2 {
+    text-align: left;
+  }
+
+  .services p {
+    width: 90%;
+    
+  }
+
   .services a {
     width: 30%;
     position: relative;
-    left: 30%;
+    
+    
   }
+
   .main img {
     width: 90%;
   }
+
+  .main p {
+    width: 90%;
+  } 
+
   .main a {
     display: inline-block;
     width: 30%;
     position: relative;
-    left: 30%;
+    
   }
 
 }
@@ -249,55 +268,70 @@ img {
   }
   
   .nav__item {
-    margin-right: 35px;
+    margin-right: 25px;
   }
   
   .nav__item--link {
     color: orange;
-    text-shadow: 5px 5px 10px #000;
+    text-shadow: 2px 2px 2px #111;
     font-family: 'Chelsea Market', cursive, sans-serif;
     font-size: 1.1rem;
   }
 
   .search {
     display: inline-block;
-    padding: 10px 0px 10px 20px;
-    width: 90%;
+    padding: 10px 0px 10px 10px;
+    
   
 }
 
   .services img {
-    width: 90%;
+    width: 95%;
+    
+  }
+  .services h2 {
+    text-align: center;
   }
 
   .services a {
-    width: 20%;
+    width: 50%;
     position: relative;
-    left: 30%;
+    
   }
 
   .main img {
     width: 100%;
   }
 
+  .main p {
+    width: 100%;
+    text-align: center;
+  }
+
   .main a {
     display: inline-block;
-    width: 20%;
+    width: 50%;
     position: relative;
-    left: 40%;
+    
   }
+
+  
 
   .footer h2 {
     text-align: left;
   }
 
   .footer p {
-    width: 40%;
+    width: 100%;
     text-align: left;
   }
 
-  .fa {
-    text-align: left;
+  .footer a {
+    display: inline-block;
+    width: 5%;
+    font-size: 3rem;
+    padding: 20px 0;
+    color: #fff;
     
   }
 
